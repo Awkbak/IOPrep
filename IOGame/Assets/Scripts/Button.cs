@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Button : MonoBehaviour {
-    private bool signal = false;
+    private bool signal;
+    public Signal attached;
 	// Use this for initialization
 	void Start () {
         signal = false;
@@ -15,6 +16,6 @@ public class Button : MonoBehaviour {
     
     void PressButton()
     {
-        signal = !signal;
+        attached.changeSignal();
     }
 }

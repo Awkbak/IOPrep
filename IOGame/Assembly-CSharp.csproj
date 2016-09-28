@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AndGate.cs" />
      <Compile Include="Assets\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\Light.cs" />
      <Compile Include="Assets\Scripts\NotGate.cs" />
      <Compile Include="Assets\Scripts\OrGate.cs" />
      <Compile Include="Assets\Scripts\Signal.cs" />

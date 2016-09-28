@@ -2,14 +2,17 @@
 using System.Collections;
 
 public class NotGate : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    public Signal in1;
+    public Signal output;
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+        if (in1.getSignal() == output.getSignal()){
+            output.changeSignal();
+        }
 	}
 }
