@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{E1955F81-D30D-177F-BCA1-BF306E5A1864}") = "IOGame", "Assembly-CSharp.csproj", "{42027F3B-6945-C4E7-53EA-9FD514B845C3}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOGame.CSharp", "IOGame.CSharp.csproj", "{49B76751-B8BE-F546-17B7-77364BD1AC9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{42027F3B-6945-C4E7-53EA-9FD514B845C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42027F3B-6945-C4E7-53EA-9FD514B845C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42027F3B-6945-C4E7-53EA-9FD514B845C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42027F3B-6945-C4E7-53EA-9FD514B845C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B76751-B8BE-F546-17B7-77364BD1AC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B76751-B8BE-F546-17B7-77364BD1AC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B76751-B8BE-F546-17B7-77364BD1AC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B76751-B8BE-F546-17B7-77364BD1AC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
