@@ -65,11 +65,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AndGate.cs" />
     <Compile Include="Assets\Scripts\Button.cs" />
+    <Compile Include="Assets\Scripts\ByteMove.cs" />
+    <Compile Include="Assets\Scripts\ByteSpin.cs" />
     <Compile Include="Assets\Scripts\Light.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\NotGate.cs" />
     <Compile Include="Assets\Scripts\OrGate.cs" />
     <Compile Include="Assets\Scripts\Signal.cs" />
+    <Compile Include="Assets\Scripts\spin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
