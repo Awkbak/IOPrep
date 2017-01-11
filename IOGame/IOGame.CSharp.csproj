@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AndGate.cs" />
+    <Compile Include="Assets\Scripts\BitDrag.cs" />
     <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\ByteMove.cs" />
     <Compile Include="Assets\Scripts\ByteSpin.cs" />
